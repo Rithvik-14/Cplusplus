@@ -17,7 +17,7 @@ int main()
     cout<<*(a+1)<<endl;     ////deference of the a
     cout<<a+1<<endl;        ////this gives us the address
     
-    int*p=&a[0];
+    int*p=&a[0];           
     cout<<sizeof(p)<<endl;
     cout<<sizeof(a)<<endl;
     p=p+1;
@@ -37,6 +37,7 @@ int main()
         //in charachter array value inside the memory will be stored instaed of adderss 
         //here cout will behave in diferent manner.
     char*c = &b[0];
+    char*c= &b[0];
     cout<< c <<endl;
 
     char c1 = 'a';
@@ -44,4 +45,5 @@ int main()
 
     cout<< c1 <<endl;
     cout<< pc <<endl;
+}
     
