@@ -17,6 +17,9 @@ int main()
     cout<<i<<endl;
     int k=100;
     j=k;
+
+
+    // djgjdnvk
     cout<<i<<endl;
 }
 
