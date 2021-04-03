@@ -14,7 +14,7 @@ int main()
     a[0]=5;
     a[1]=6;
     cout<<*a<<endl;
-    cout<<*(a+1)<<endl;     ////deference of the a
+    cout<<*(a+1)<<endl;     ////deference of the a    *(a+i)==a[i]
     cout<<a+1<<endl;        ////this gives us the address
     
     int*p=&a[0];           
