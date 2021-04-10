@@ -25,4 +25,4 @@ using namespace std;
         cout<<a<<endl;
     }
 
-////global variable mae risk hae...if anyone changes the value all functons values will change
+////global variable may risk as...if anyone changes the value all functons values will change
