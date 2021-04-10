@@ -2,5 +2,23 @@
     public:
 
      int rollnumber;
+
+     private:    ////can be accessed within class
+
      int age;
+
+     public:
+
+     void display() {
+
+         cout << age << " " << rollnumber <<endl;
+     }
+     int getAge() {
+         return age; 
+     }
+
+     void setAge(int a) {
+         age=a;
+     }
+
  };
