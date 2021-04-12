@@ -9,6 +9,22 @@
 
      public:
 
+     //Deafult constructor
+     Student() {
+         cout<<"COnstructor called !"<<endl;
+     }
+
+     //parametrised constructor.....take arguments
+     Student(int r) {
+         rollnumber=r;
+         cout<<"constructor  2 called"<<endl;
+     }
+     Student (int r,int a) {
+         rollnumber=r;
+         age=a;
+         cout<<"constructor 3 called"<<endl;
+     }
+
      void display() {
 
          cout << age << " " << rollnumber <<endl;
