@@ -14,6 +14,11 @@
          cout<<"COnstructor called !"<<endl;
      }
 
+     ////DESTRUCTOR//
+    ~Student () {
+        cout<<"destructor caled!"<<endl;
+    }
+
      //parametrised constructor.....take arguments
      Student(int r) {
          rollnumber=r;
