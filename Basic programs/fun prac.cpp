@@ -6,7 +6,7 @@ using namespace std;
         if((x>y)&&x>z){
             cout<<x<<"is the greatest"<<endl;
         }
-         if else((y>x)&&(y>z)){
+         else if((y>x)&&(y>z)){
             cout<<y<<"is grearest"<<endl;
         }
         else{
