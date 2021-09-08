@@ -1,4 +1,4 @@
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main()
 {
@@ -14,10 +14,10 @@ int main()
             cout<<str[i];
             
     }
-}*/
+}
 
 
-#include<iostream>
+/*#include<iostream>
 #include<string.h>
 using namespace std;
 
@@ -51,4 +51,4 @@ int main()
 	cout<<"After deleting the vowels, the string will be : "<<str;
     
     return 0;	
-}
+}*/

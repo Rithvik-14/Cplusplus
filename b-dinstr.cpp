@@ -4,14 +4,14 @@
 using namespace std;
 
 /*void binarytodecimal(string s)
-{
+{                                             1010 ----  10
     int base=1;
     int ans=0;
     int size = s.length();
 
     for(int i=size-1;i>=0;i--)
     {
-        ans=ans+ ((int)(s[i]-'0')*base);
+        ans=ans+ ((int)(s[i]-'0')*base);              since '0' has the ascii code for 48 so subtract it with the charachter 
         base=base*2;
     }
 

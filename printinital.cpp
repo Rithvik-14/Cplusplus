@@ -10,7 +10,8 @@ void findNameInitials(string name) {
    cout << " " << (char)toupper(name[i + 1]);
 }
 int main() {
-   string name = "rithvik suneel dixit";
+   string name;
+   getline(cin,name);
    cout<<"The initials of the name are ";
    findNameInitials(name);
    return 0;
